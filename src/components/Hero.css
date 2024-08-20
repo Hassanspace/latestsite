@@ -1,0 +1,32 @@
+/* Slide in from the left animation */
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-20%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-left {
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  
+  /* Slide in from the bottom right animation */
+  @keyframes slideInRight {
+    0% {
+      transform: translate(20%, 20%);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-right {
+    animation: slideInRight 1s ease-out forwards;
+  }
+  

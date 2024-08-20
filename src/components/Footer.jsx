@@ -1,35 +1,130 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
     <footer className="bg-black bg-opacity-30 backdrop-blur-lg text-white py-6 footer">
       <div className="container mx-auto text-center">
         {/* Name */}
-        <div className="mb-4 text-2xl font-bold text-blue-700">Hassan Rasool</div>
+        <div className="mb-4 text-2xl font-bold text-blue-700">
+          Hassan Rasool
+        </div>
 
         {/* Navigation Links */}
         <div className="mb-4">
-          <a href="#Home" className="mx-4 hover:text-gray-400 transition">Back to Top</a>
-          <a href="#skills" className="mx-4 hover:text-gray-400 transition">Skills</a>
-          <a href="#project" className="mx-4 hover:text-gray-400 transition">Projects</a>
-          <a href="#education" className="mx-4 hover:text-gray-400 transition">Education</a>
+          <a href="#Home" className="mx-4 hover:text-gray-400 transition">
+            Back to Top
+          </a>
+          <a href="#skills" className="mx-4 hover:text-gray-400 transition">
+            Skills
+          </a>
+          <a href="#project" className="mx-4 hover:text-gray-400 transition">
+            Projects
+          </a>
+          <a href="#education" className="mx-4 hover:text-gray-400 transition">
+            Education
+          </a>
         </div>
 
         {/* Social Media Icons */}
         <div className="mb-4 flex justify-center items-center">
-          <a href="https://www.instagram.com/hass_anrasool/" target="_blank" rel="noopener noreferrer" className="mx-2">
-            <svg className="w-6 h-6 fill-current text-gray-400 hover:text-gray-300 transition" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7.875 2.25H16.125C18.425 2.25 20.25 4.075 20.25 6.375V17.625C20.25 19.925 18.425 21.75 16.125 21.75H7.875C5.575 21.75 3.75 19.925 3.75 17.625V6.375C3.75 4.075 5.575 2.25 7.875 2.25ZM12 14.625C14.175 14.625 15.75 13.05 15.75 10.875C15.75 8.7 14.175 7.125 12 7.125C9.825 7.125 8.25 8.7 8.25 10.875C8.25 13.05 9.825 14.625 12 14.625ZM16.125 5.625C15.75 5.625 15.375 5.975 15.375 6.375C15.375 6.775 15.75 7.125 16.125 7.125C16.5 7.125 16.875 6.775 16.875 6.375C16.875 5.975 16.5 5.625 16.125 5.625Z"/>
+          <a
+            href="https://www.instagram.com/hass_anrasool/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#9b9b9b"
+              fill="none"
+            >
+              <path
+                d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path
+                d="M17.5078 6.5L17.4988 6.5"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/hassan-rasool-0b81a3318/" target="_blank" rel="noopener noreferrer" className="mx-2">
-            <svg className="w-6 h-6 fill-current text-gray-400 hover:text-gray-300 transition" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.98 3.5C4.98 2.119 6.1.998 7.48.998S9.98 2.119 9.98 3.5 8.86 6 7.48 6 4.98 4.879 4.98 3.5ZM2 6.707v12.586H5.957V13.04c0-1.176.042-2.165.62-3.041.648-1.037 1.814-1.664 3.144-1.664 2.039 0 2.98 1.346 2.98 3.533v6.749H8.065v-6.379c0-1.491-.027-2.722-1.698-2.722-1.697 0-2.262 1.232-2.262 2.564v6.537H2v-6.787z"/>
+          <a
+            href="https://www.linkedin.com/in/hassan-rasool-0b81a3318/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#9b9b9b"
+              fill="none"
+            >
+              <path
+                d="M7 10V17"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M11 13V17M11 13C11 11.3431 12.3431 10 14 10C15.6569 10 17 11.3431 17 13V17M11 13V10"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7.00801 7L6.99902 7"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+              />
             </svg>
           </a>
-          <a href="https://github.com/Hassanspace" target="_blank" rel="noopener noreferrer" className="mx-2">
-            <svg className="w-6 h-6 fill-current text-gray-400 hover:text-gray-300 transition" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.85 8.19 6.84 9.5.5.09.69-.22.69-.5v-1.79c-2.61.57-3.15-1.26-3.15-1.26-.42-1.08-1.03-1.37-1.03-1.37-.84-.58.06-.57.06-.57.93.07 1.41.96 1.41.96.83 1.43 2.19 1.02 2.72.78.09-.6.32-1.02.58-1.25-1.94-.22-3.97-.97-3.97-4.32 0-1.36.48-2.48 1.28-3.36-.13-.31-.56-1.55.12-3.24 0 0 1.05-.34 3.44 1.3a11.94 11.94 0 0 1 3.14-.42c1.06 0 2.12.14 3.12.42 2.37-1.67 3.41-1.3 3.41-1.3.68 1.69.26 2.93.12 3.24.8.88 1.27 2 1.27 3.36 0 3.35-2.04 4.1-3.99 4.32.33.28.63.83.63 1.68v2.5c0 .28.19.6.69.5C21.15 20.19 24 16.42 24 12c0-5.52-4.48-10-10-10z"/>
+          <a
+            href="https://github.com/Hassanspace"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#9b9b9b"
+              fill="none"
+            >
+              <path
+                d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
           </a>
         </div>

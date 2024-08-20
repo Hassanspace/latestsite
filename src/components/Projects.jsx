@@ -120,8 +120,8 @@ const Projects = () => {
       live: true,
       description:
         "A project built with React and Tailwind CSS and react libraries.",
-      codeLink: "",
-      liveDemoLink: "",
+      codeLink: "https://github.com/Hassanspace/latestsite.git",
+      liveDemoLink: "https://hassansden.netlify.app/",
       category: "react-tailwind",
       date: "Aug 2024 - Aug 2024",
       technologies: [

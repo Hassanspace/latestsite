@@ -14,9 +14,9 @@ const Skills = () => {
       { name: 'Tailwind CSS', percentage: '90%', color: 'blue-900', image: 'tailwind.png' },
     ],
     tab2: [
-      { name: 'Node.js', percentage: '80%', color: 'green-600', image: 'nodejs.png' },
-      { name: 'Express.js', percentage: '75%', color: 'green-600', image: 'expressjs.png' },
-      { name: 'MongoDB', percentage: '70%', color: 'green-600', image: 'mongodb.png' },
+      { name: 'Node.js', percentage: '85%', color: 'green-600', image: 'nodejs.png' },
+      { name: 'Express.js', percentage: '80%', color: 'green-600', image: 'expressjs.png' },
+      { name: 'MongoDB', percentage: '80%', color: 'green-600', image: 'mongodb.png' },
       { name: 'Firebase', percentage: '65%', color: 'green-600', image: 'firebase.png' },
     ],
     tab3: [

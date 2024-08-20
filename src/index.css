@@ -5,6 +5,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+  overflow-x: hidden;
+}
 
 .hero-image{
     border-radius: 31% 69% 44% 56% / 55% 25% 75% 45% ;

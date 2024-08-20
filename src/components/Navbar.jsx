@@ -85,7 +85,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden absolute top-16 left-0 right-0 bg-gray-900 bg-opacity-40 backdrop-blur-lg text-white text-base py-2 flex flex-col items-center">
           <a href="#skills" className="py-2 w-full text-center hover:bg-gray-700">Skills</a>
-          <a href="#projects" className="py-2 w-full text-center hover:bg-gray-700">Projects</a>
+          <a href="#project" className="py-2 w-full text-center hover:bg-gray-700">Projects</a>
           <a href="#education" className="py-2 w-full text-center hover:bg-gray-700">Education</a>
           <a href="#contact" className="py-2 w-full text-center hover:bg-gray-700">Contact</a>
         </div>

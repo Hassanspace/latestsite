@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -49,7 +50,17 @@ const Contact = () => {
 
         emailjs.sendForm('service_3br6m6e', 'template_1irlutk', e.target, 'NtaEhUvivz0pmr0HH')
             .then((result) => {
-            console.log("success")
+                toast.success('Response Was Sent SuccessFully', {
+                    position: "top-right",
+                    autoClose: 2999,
+                    hideProgressBar: true,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                   
+                    });
                 // Reset the form after successful submission
                 setForm({
                     first_name: '',
@@ -60,7 +71,17 @@ const Contact = () => {
                 setErrors({});
                 setLoading(false); // Set loading to false when submission completes
             }, (error) => {
-               console.log("error")
+                toast.error('🦄 Wow so easy!', {
+                    position: "top-right",
+                    autoClose: 2999,
+                    hideProgressBar: true,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                   
+                    });
                 setLoading(false); // Set loading to false when there's an error
             });
     };
@@ -147,6 +168,7 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
+            <ToastContainer />
           
         </>
     );
