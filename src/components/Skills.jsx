@@ -12,12 +12,14 @@ const Skills = () => {
       { name: 'Bootstrap', percentage: '85%', color: 'blue-700', image: 'bootstrap.png' },
       { name: 'React', percentage: '85%', color: 'blue-900', image: 'react.png' },
       { name: 'Tailwind CSS', percentage: '90%', color: 'blue-900', image: 'tailwind.png' },
+      { name: 'Python', percentage: '70%', color: 'blue-900', image: 'python.jpg' },
     ],
     tab2: [
       { name: 'Node.js', percentage: '85%', color: 'green-600', image: 'nodejs.png' },
       { name: 'Express.js', percentage: '80%', color: 'green-600', image: 'expressjs.png' },
       { name: 'MongoDB', percentage: '80%', color: 'green-600', image: 'mongodb.png' },
       { name: 'Firebase', percentage: '65%', color: 'green-600', image: 'firebase.png' },
+      { name: 'Django', percentage: '75%', color: 'green-600', image: 'django.jpg' },
     ],
     tab3: [
       { name: 'Git', percentage: '85%', color: 'blue-700', image: 'git.png' },

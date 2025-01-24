@@ -37,12 +37,12 @@ const Education = () => {
           <img
             src={comsats}
             alt="COMSATS Logo"
-            className="rounded-full h-full w-full"
+            className="w-full h-full rounded-full"
           />
         }
       >
         <div className="flex flex-row-reverse gap-2">
-          <h3 className="vertical-timeline-element-title md:text-2xl text-xl font-bold">
+          <h3 className="text-xl font-bold vertical-timeline-element-title md:text-2xl">
             COMSATS UNIVERSITY ISLAMABAD, Sahiwal Campus
           </h3>
           <img
@@ -57,14 +57,14 @@ const Education = () => {
         <h5 className="vertical-timeline-element-subtitle">
           Sep 2022 - Sep 2026
         </h5>
-        <h5 className="font-bold">Grade: 3.5 / 4 CGPA</h5>
+        <h5 className="font-bold">Grade: 3.57 / 4 CGPA</h5>
         <p>
           I am currently pursuing a Bachelor's degree in Software Engineering at
           COMSATS University Islamabad, Sahiwal Campus, Pakistan. I have
-          completed 4 semesters and have a CGPA of 3.5/4. I have taken courses
+          completed 5  semesters Semester Gpa is 3.95/4 and have a CGPA of 3.57/4. I have taken courses
           in Programming Fundamentals, Data Structures and Algorithms,
-          Object-Oriented Programming among others. I am learning and working on
-          exciting projects with a team of talented developers.
+          Object-Oriented Programming , Database Systems among others. I am learning and working on
+          exciting projects with a team of talented developers Friends.
         </p>
       </VerticalTimelineElement>
 
@@ -93,12 +93,12 @@ const Education = () => {
           <img
             src={dps}
             alt="DPS Logo"
-            className="rounded-full h-full w-full"
+            className="w-full h-full rounded-full"
           />
         }
       >
         <div className="flex flex-row-reverse gap-2">
-          <h3 className="vertical-timeline-element-title md:text-2xl text-xl font-bold">
+          <h3 className="text-xl font-bold vertical-timeline-element-title md:text-2xl">
             DIVISIONAL PUBLIC SCHOOL AND COLLEGE, Sahiwal
           </h3>
           <img
@@ -145,12 +145,12 @@ const Education = () => {
           <img
             src={educators}
             alt="The Educators Logo"
-            className="rounded-full h-full w-full"
+            className="w-full h-full rounded-full"
           />
         }
       >
         <div className="flex flex-row-reverse gap-2">
-          <h3 className="vertical-timeline-element-title md:text-2xl text-xl font-bold">
+          <h3 className="text-xl font-bold vertical-timeline-element-title md:text-2xl">
             THE EDUCATORS (BOYS CAMPUS), Sahiwal
           </h3>
           <img
@@ -181,7 +181,7 @@ const Education = () => {
         icon={<img
             src={finish}
             alt="The Educators Logo"
-            className="rounded-full h-full w-full"
+            className="w-full h-full rounded-full"
           />}
       />
     </VerticalTimeline>
