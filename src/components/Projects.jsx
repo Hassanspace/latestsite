@@ -179,6 +179,44 @@ const Projects = () => {
         { name: "mongodb", image: "/icons/mongodb.png" },
       ],
     },
+   
+    // Other existing projects...
+    {
+      id: 12,
+      image: "/images/eventmanagement.png",
+      name: "Event Management System",
+      live: false,
+      description:
+        "A Management application built with Django featuring user authentication and CRUD functionality.",
+      codeLink: "https://github.com/Hassanspace/Eventmanagement_django.git",
+      liveDemoLink: "",
+      category: "django",
+      date: "dec 2024 - Jan 2025",
+      technologies: [
+        { name: "Django", image: "/icons/django.jpg" },
+        { name: "Python", image: "/icons/python.jpg" },
+        { name: "Bootstrap", image: "/icons/bootstrap.png" },
+        { name: "tailwind", image: "/icons/tailwind.png" },
+      ],
+    },
+    {
+      id: 13,
+      image: "/images/netflixclone.png",
+      name: "Netflix clone",
+      live: false,
+      description:
+        "A  functional netflix clone with otp functionality for user security  built with Django.",
+      codeLink: "https://github.com/Hassanspace/netflixclone",
+      liveDemoLink: "",
+      category: "django",
+      date: "Sep 2024 - Feb 2025",
+      technologies: [
+        { name: "Django", image: "/icons/django.jpg" },
+        { name: "Python", image: "/icons/python.jpg" },
+        { name: "Bootstrap", image: "/icons/bootstrap.png" },
+        { name: "Tailwind", image: "/icons/tailwind.png" },
+      ],
+    },
   ];
 
   // Filter projects based on the selected tab
@@ -192,7 +230,7 @@ const Projects = () => {
 
   return (
     <div className="flex flex-col items-center justify-center p-6">
-      <div className="flex mb-6 border border-blue-700 rounded-lg p-3">
+      <div className="flex p-3 mb-6 border border-blue-700 rounded-lg">
         <button
           className={`py-2 px-4 text-xs md:text-sm font-medium transition-colors duration-300 ${
             activeTab === "html-css-js"
@@ -223,11 +261,21 @@ const Projects = () => {
         >
           MERN Stack
         </button>
+        <button
+          className={`py-2 px-4 text-xs md:text-sm font-medium transition-colors duration-300 ${
+            activeTab === "django"
+              ? "border-b-2 rounded-lg border-blue-500 text-white bg-blue-700"
+              : "text-white hover:text-blue-500"
+          }`}
+          onClick={() => handleTabClick("django")}
+        >
+          Django
+        </button>
       </div>
 
       {/* Tab Content */}
       {activeTab && (
-        <div className=" w-full flex flex-wrap justify-center  bg-transparent backdrop-blur-sm bg-opacity-30 shadow-md rounded-lg">
+        <div className="flex flex-wrap justify-center w-full bg-transparent rounded-lg shadow-md backdrop-blur-sm bg-opacity-30">
           {filterProjects(activeTab).map((project) => (
             <ProjectCard
               key={project.id}
