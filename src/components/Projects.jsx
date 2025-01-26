@@ -217,6 +217,25 @@ const Projects = () => {
         { name: "Tailwind", image: "/icons/tailwind.png" },
       ],
     },
+    {
+      id: 14,
+      image: "/images/rps.png",
+      name: "Rock Paper Scissors ",
+      live: true,
+      description:
+        "This project was Build using Html , Css and  javascript and it is responsive fun game.",
+      codeLink: "https://github.com/Hassanspace/rockpaperscissor.git",
+      liveDemoLink: "https://hassanspace.github.io/rockpaperscissor/",
+      category: "html-css-js",
+      date: "january 2025 - January 2025",
+      technologies: [
+        { name: "HTML", image: "/icons/html.png" },
+        { name: "CSS", image: "/icons/css.png" },
+        { name: "Js", image: "/icons/javascript.png" },
+       
+      ],
+    },
+    
   ];
 
   // Filter projects based on the selected tab
